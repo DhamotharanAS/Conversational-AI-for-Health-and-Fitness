@@ -1,0 +1,7 @@
+curl --location --request POST "http://127.0.0.1:8000/generate-response" ^
+--header "Content-Type: application/json" ^
+--data "{
+  \"query_text\": \"fitness\",
+  \"version\": 2,
+  \"question\": \"Give me proper exercise routine I need to follow\"
+}"
